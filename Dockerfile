@@ -6,6 +6,7 @@ COPY ./app /app
 RUN apt-get update
 RUN apt-get install nginx python3-pip python3-dev zip gcc musl-dev unzip nano systemd -y
 
+RUN pip3 install --upgrade pip
 RUN pip3 install -r /app/requirements.txt
 RUN pip3 install uwsgi
 
