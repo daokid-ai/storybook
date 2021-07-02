@@ -33,18 +33,18 @@ Coding center code - comment out the following 4 lines of code when ready for pr
 # load up the model into memory
 # you will need to have all your trained model in the app/ directory.
 # EDIT THIS LINE TO LOAD IN YOUR MODEL INSTEAD
-ai = aitextgen(model_folder="trained_on_everything_at_once_model",to_gpu=False)
+ai = aitextgen(to_gpu=False)
 
 # setup the webserver
 # port may need to be changed if there are multiple flask servers running on same server
-#port = 12314
+#port = 41233
 #base_url = get_base_url(port)
 #app = Flask(__name__, static_url_path=base_url+'static')
 
 '''
 Deployment code - uncomment the following line of code when ready for production
 '''
-#app = Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 #@app.route(base_url)
@@ -71,7 +71,7 @@ def results():
 def Team():
     return render_template('webpages/combined/Team.html', generated=None)
 
-@app.route('/about')
+app.route('/about')
 #@app.route(base_url + '/about')
 def About():
     return render_template('webpages/combined/About.html', generated=None)
