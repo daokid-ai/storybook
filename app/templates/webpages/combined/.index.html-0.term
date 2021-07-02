@@ -1,0 +1,49 @@
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[00m$ o M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc onda[K[K[K[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc onda install [K[K[K[K[K[K[K[K[K[K[K[K[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp ython [K[K[K[K[K[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp ython main [K.py
+python: can't open file 'main.py': [Errno 2] No such file or directory
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[00m$ c onda install main.py
+Collecting package metadata (current_repodata.json): - \ | / - done
+Solving environment: | failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | done
+Solving environment: - failed with initial frozen solve. Retrying with flexible solve.
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - main.py
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/linux-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/linux-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[00m$ c d [KM(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[00m$ cd [K[K[Kpython main.py M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ky
+python: can't open file 'main.py': [Errno 2] No such file or directory
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages/combined[00m$ cd ..
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates/webpages[00m$ cd ..
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates[00m$ conda[K[K[K[K[Kpython main.pu[Ky
+python: can't open file 'main.py': [Errno 2] No such file or directory
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app/templates[00m$ cd ..
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app[00m$ python mi[Kain.py
+Traceback (most recent call last):
+  File "main.py", line 18, in <module>
+    from flask import Flask, flash, request, redirect, url_for, render_template
+ModuleNotFoundError: No module named 'flask'
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app[00m$ [K(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app[00m$ python main.py
+Traceback (most recent call last):
+  File "main.py", line 18, in <module>
+    from flask import Flask, flash, request, redirect, url_for, render_template
+ModuleNotFoundError: No module named 'flask'
+(base) ]0;~/Group Notebooks and Projects/GPT/our_NLP_website/app[01;34m~/Group Notebooks and Projects/GPT/our_NLP_website/app[00m$ 

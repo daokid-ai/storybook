@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<head>
+	<title>Team</title>
+    <link rel="stylesheet" href={{ url_for( 'static', filename="team.css" ) }}>
+    <link rel="stylesheet" href={{ url_for( 'static', filename="navbar.css" ) }}>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-expand-lg navbar bg-white m-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color:black">
+                <img id="logo"src={{ url_for( 'static', filename="images/aicamplogo.webp" ) }} height=auto width=65px >
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-inline-flex">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index" style="color:black">Write A Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about" style="color:black">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team" style="color:black">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="howitworks" style="color:black">How It Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resources" style="color:black">Resources</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+	<section id="section-4">
+		<div class="text-center">
+			<h1 class="text-dark my-5">Meet the Team</h1>
+			<br> </div>
+		<div class="wrapper-flex">
+			<div class="container container-team" style="background-color: white;">
+				<br><img src={{ url_for( 'static', filename="images/Rachel_picture.jpg" ) }} alt='profile image' class="profile-img" >
+				<p class="name"><br>Rachel Enache</p>
+				<p class="description">Student</p>
+				<p class="description">I am a rising junior at Avon Grove High School in Pennsylvania. In my free time, I enjoy playing soccer and baking. For our project, I mostly worked on cleaning the data using python and designing/editing our website with HTML and CSS.</p>
+			</div>
+			<div class="container container-team">
+				<img src={{ url_for( 'static', filename="images/Neel_picture.png" ) }} alt='profile image' class="profile-img">
+				<p class="name">Neel Bhattacharyya</p>
+				<p class="description">Student</p>
+				<p class="description">I am a rising sophomore at Poolesville High School in Poolesville, MD. I like to swim and I like to play outside with my friends in my free time. For this project, I mainly contributed to the cleaning of the data and creating a page for our website.</p>
+			</div>
+			<div class="container container-team">
+				<br><img src={{ url_for( 'static', filename="images/image0.jpeg" ) }} alt='profile image' class="profile-img">
+				<p class="name">Jay Wankhede</p>
+				<p class="description">Student</p>
+				<p class="description">I am a rising sophomore at Poolesville Highschool in Maryland. I like to play soccer and play with my dog. I contributed most to the data gathering as well as the website.</p>
+			</div>
+			<div class="container container-team">
+				<br><img src={{ url_for( 'static', filename="images/sam_picture.jpg" ) }} alt='profile image' class="profile-img">
+				<p class="name">Sam Kihneman</p>
+				<p class="description">Student</p>
+				<p class="description">I am a rising junior at Discovery High School in Newton, NC. In my free time I like to play with my three younger brothers and make video games. For this project I mostly worked on collecting data and cleaning it so it could be used to train the model.</p>
+			</div>
+      <div class="container container-team">
+				<br><img src={{ url_for( 'static', filename="images/vivek.jpg" ) }} alt='profile image' class="profile-img-vivek">
+				<p class="name"><br>Vivek Nadig</p>
+				<p class="description">Student</p>
+				<p class="description">I am a rising sophomore at Valley Christian High School in San Jose, CA. I like to play basketball with my friends in my free time. For this project, I mainly contributed to adding the speech recognition module, creating requests to generate text, and developing the website.</p>
+			</div>
+      <div class="container container-team">
+				<br><img src={{ url_for( 'static', filename="images/aicamplogo.webp" ) }} alt='profile image' class="profile-img">
+				<p class="name"><br>Pierre-Louis Piguet</p>
+				<p class="description">Student</p>
+				<p class="description"></p>
+			</div>
+
+			<div class="container container-team">
+				<br><img style="width:200px; height:auto;" src={{ url_for( 'static', filename="images/senior_6_2.jpeg" ) }} alt='profile image' class="profile-img-robert">
+				<p class="name"><br>Robert Schellenberger</p>
+				<p class="description">Teaching Assistant</p>
+				<p class="description">I am a rising senior at Rice University in Houston, TX. In addition to playing soccer and video games in my free time, I recently started learning how to cook! I helped guide and educate the students towards getting a finished product!</p>
+			</div>
+        <div class="container container-team">
+				<br><img src={{ url_for( 'static', filename="images/tenny_picture.png" ) }} alt='profile image' class="profile-img">
+				<p class="name">Tenny Liu</p>
+				<p class="description">Instructor</p>
+				<p class="description">I am a graduate from Pomona College. I studied Math and enjoy exploring AI innovations and their social implications. My simple pleasures include long walks and people watching. I am the instructor and served as a moral support to the team. </p>
+			</div>
+              <div class="container container-team">
+				<br><img src={{ url_for( 'static', filename="images/michael.webp" ) }} alt='profile image' class="profile-img">
+				<p class="name"><br>Michael Zhang</p>
+				<p class="description">Co-founder</p>
+				<p class="description">Michael is a co-founder of AI-camp. He led preparation sessions leading up to camp, organized teams and our schedule, and provided support to all of the teams with the creation of their products. </p>
+			</div>
+		</div>
+    </section>
+    <section id='footer'>
+        <footer class="bg-dark text-center text-white mb-0 mt-3 navbar-fixed-bottom">
+            <!-- <div class="container p-4 pb-0">
+              <section class="mb-4">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+            </div> -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); color:white;">
+              © 2021 Copyright:
+              <a class="text-white" href="https://www.ai-camp.org/">ai-camp.org</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+      </section>
+</body>
+
+</html>

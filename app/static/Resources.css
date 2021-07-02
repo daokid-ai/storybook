@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins&family=Roboto:wght@100&family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+/*     overflow: hidden; */
+  }
+ 
+:root{
+    --Poppins-font:"Poppins";
+    --Roboto-font:"Roboto";
+    --Montserrat-font:"Montserrat";
+    --SSPro-font:"Source Sans Pro";
+    --bggradient-header: linear-gradient(99.89deg, #81C0E8 -0.49%, #4732DC 98.8%); 
+    --bggradient-footer: linear-gradient(263.56deg, #4732DC 1.74%, #3C0F84 99.77%);
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+    
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+body{
+    padding: 0;
+}
+
+:root{
+    --Poppins-font:"Poppins";
+    --Roboto-font:"Roboto";
+    --Montserrat-font:"Montserrat";
+    --SSPro-font:"Source Sans Pro";
+    --bggradient-header: linear-gradient(99.89deg, #81C0E8 -0.49%, #4732DC 98.8%); 
+    --bggradient-footer: linear-gradient(263.56deg, #4732DC 1.74%, #3C0F84 99.77%);
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+    
+}
+
+.container{
+    max-width: 80vw;
+    border-radius: 8px;
+    height: 105vh;
+}
+.row{
+    width: 100%;
+    height: auto;
+}
+.item-url{
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background: white;
+    border-radius: 8px;
+    min-height: 7vh;
+    max-width: 100vw;
+}

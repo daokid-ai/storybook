@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins&family=Roboto:wght@100&family=Source+Sans+Pro&display=swap');
+
+*{
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+/*   overflow: hidden; */
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+body{
+    padding: 0;
+}
+
+#main-header{
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+#header-container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#hero-text{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 7vw;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#nav-link{
+   font-size: large;
+   font-weight: bolder;
+}
+#generated-text{
+    font-size: 20px;
+    color: black;
+    line-height: 1.5em;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
